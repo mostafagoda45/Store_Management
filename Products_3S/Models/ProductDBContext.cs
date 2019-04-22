@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
 
 namespace Products_3S.Models
 {

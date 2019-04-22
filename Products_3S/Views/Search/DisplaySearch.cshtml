@@ -1,0 +1,55 @@
+﻿@model Products_3S.Models.ProductUnitModelView
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-5">
+    <h1 class="display-3">Product Search</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset class="border p-2">
+            <legend class="w-auto">Product</legend>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.ProductName, "Product Name", new { @for = "txt_product_name", @class = "form-control-label" })
+                @Html.TextBoxFor(model => model.Product.ProductName, new { @class = "form-control w-50", @id = "txt_product_name" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.QuantityPerUnit, "Unit", new { @for = "list_quantity_per_unit", @class = "form-control-label" })
+                <br />
+                @Html.DropDownListFor(model => model.Product.QuantityPerUnit, (IEnumerable<SelectListItem>)Model.Units, "Select Unit", new { @class = "custom-select w-50", @id = "list_quantity_per_unit" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.ReorderLevel, "Reorder Level", new { @for = "txt_reoder_level", @class = "form-control-label" })
+                @Html.TextBoxFor(model => model.Product.ReorderLevel, new { @class = "form-control w-50", @id = "txt_reoder_level", @type = "number" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.SupplierID, "Supplier Name", new { @for = "list_supplier", @class = "form-control-label" })
+                <br />
+                @Html.DropDownListFor(model => model.Product.SupplierID, (IEnumerable<SelectListItem>)Model.Suppliers, "Select Supplier", new { @class = "custom-select w-50", @id = "list_supplier" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.UnitPrice, "Unit Price", new { @for = "txt_unit_price", @class = "form-control-label" })
+                @Html.TextBoxFor(model => model.Product.UnitPrice, new { @class = "form-control w-50", @id = "txt_unit_price" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.UnitsInStock, "Units In Stock", new { @for = "txt_units_in_stock", @class = "form-control-label" })
+                @Html.TextBoxFor(model => model.Product.UnitsInStock, new { @class = "form-control w-50", @id = "txt_units_in_stock", @type = "number" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Product.UnitsOnOrder, "Units On Order", new { @for = "txt_units_on_order", @class = "form-control-label" })
+                @Html.TextBoxFor(model => model.Product.UnitsOnOrder, new { @class = "form-control w-50", @id = "txt_units_on_order", @type = "number" })
+            </div>
+            <p>
+                <input type="submit" value="Search" class="btn btn-primary" />
+                <a href="@Url.Action("Index", "Home")" class="btn btn-success">
+                    <span class="fa fa-arrow-left">   Back</span>
+                </a>
+            </p>
+        </fieldset>
+    }
+
+</div>
