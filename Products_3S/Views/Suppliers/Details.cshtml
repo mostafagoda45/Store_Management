@@ -1,0 +1,33 @@
+﻿@model Products_3S.Models.Supplier
+@{
+    ViewBag.Title = "Supplier -" + Model.SupplierName;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-5">
+    <h1 class="display-3">Supplier</h1>
+    @using (Html.BeginForm())
+    {
+      
+
+    <fieldset class="border p-2">
+        <legend class="w-auto">Supplier</legend>
+        <div class="d-inline-flex">
+            <label><b>Supplier ID : </b></label>
+            <p class="ml-4">@Model.SupplierID</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Supplier Name : </b></label>
+            <p class="ml-4">@Model.SupplierName</p>
+        </div>
+        <br />
+        <a href="@Url.Action("Index", "Suppliers")" class="btn btn-success">
+            <span class="fa fa-arrow-circle-o-left">   Back</span>
+        </a>
+    </fieldset>
+    }
+
+</div>
+
+

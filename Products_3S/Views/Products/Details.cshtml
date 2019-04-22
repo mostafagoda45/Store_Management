@@ -1,0 +1,60 @@
+﻿@model Products_3S.Models.Product
+@{
+    ViewBag.Title = "Supplier -" + Model.ProductName;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="mt-5">
+    <h1 class="display-3">Product</h1>
+    @using (Html.BeginForm())
+    {
+    <fieldset class="border p-2">
+        <legend class="w-auto">Product</legend>
+        <div class="d-inline-flex">
+            <label><b>Product ID : </b></label>
+            <p class="ml-4">@Model.ProductID</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Product Name : </b></label>
+            <p class="ml-4">@Model.ProductName</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Unit : </b></label>
+            <p class="ml-4">@Model.Unit.UnitName</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Reorder Level : </b></label>
+            <p class="ml-4">@Model.ReorderLevel</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Supplier Name : </b></label>
+            <p class="ml-4">@Model.Supplier.SupplierName</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Unit Price : </b></label>
+            <p class="ml-4">@Model.UnitPrice</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Units in stock : </b></label>
+            <p class="ml-4">@Model.UnitsInStock</p>
+        </div>
+        <br />
+        <div class="d-inline-flex">
+            <label><b>Units on order : </b></label>
+            <p class="ml-4">@Model.UnitsOnOrder</p>
+        </div>
+        <br />
+        <a href="@Url.Action("Index", "Products")" class="btn btn-success">
+            <span class="fa fa-arrow-circle-o-left">   Back</span>
+        </a>
+    </fieldset>
+    }
+</div>
+
+

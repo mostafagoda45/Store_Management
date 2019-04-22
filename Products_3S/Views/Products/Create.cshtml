@@ -1,0 +1,117 @@
+﻿@model Products_3S.Models.ProductUnitModelView
+@{
+    ViewBag.Title = "Create new product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<div class="mt-5">
+    <h1 class="display-3">Create New Product</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+    <fieldset class="border p-2">
+        <legend class="w-auto">Product</legend>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.ProductName, "Product Name", new { @for = "txt_product_name", @class = "form-control-label" })
+            @if (@Html.ValidationMessageFor(model => model.Product.ProductName) != null)
+            {
+                @Html.TextBoxFor(model => model.Product.ProductName, new { @class = "form-control is-invalid w-50", @id = "txt_product_name" })
+                @Html.ValidationMessageFor(model => model.Product.ProductName, "", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Product.ProductName, new { @class = "form-control w-50", @id = "txt_product_name" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.QuantityPerUnit, "Unit", new { @for = "list_quantity_per_unit", @class = "form-control-label" })
+            <br />
+            @if (@Html.ValidationMessageFor(model => model.Product.QuantityPerUnit) != null)
+            {
+                @Html.DropDownListFor(model => model.Product.QuantityPerUnit, (IEnumerable<SelectListItem>)Model.Units, "Select Unit", new { @class = "custom-select is-invalid w-50", @id = "list_quantity_per_unit" })
+                @Html.ValidationMessageFor(model => model.Product.QuantityPerUnit, "You must choose unit .", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.DropDownListFor(model => model.Product.QuantityPerUnit, (IEnumerable<SelectListItem>)Model.Units, "Select Unit", new { @class = "custom-select w-50", @id = "list_quantity_per_unit" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.ReorderLevel, "Reorder Level",new { @for = "txt_reoder_level", @class = "form-control-label" })
+            @if (@Html.ValidationMessageFor(model => model.Product.ReorderLevel) != null)
+            {
+                @Html.TextBoxFor(model => model.Product.ReorderLevel, new { @class = "form-control is-invalid w-50", @id = "txt_reoder_level", @type = "number" })
+                @Html.ValidationMessageFor(model => model.Product.ReorderLevel, "", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Product.ReorderLevel, new { @class = "form-control w-50", @id = "txt_reoder_level", @type = "number" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.SupplierID, "Supplier Name", new { @for = "list_supplier", @class = "form-control-label" })
+            <br />
+            @if (@Html.ValidationMessageFor(model => model.Product.SupplierID) != null)
+            {
+                @Html.DropDownListFor(model => model.Product.SupplierID, (IEnumerable<SelectListItem>)Model.Suppliers, "Select Supplier", new { @class = "custom-select is-invalid w-50", @id = "list_supplier" })
+                @Html.ValidationMessageFor(model => model.Product.SupplierID, "You must choose supplier .", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.DropDownListFor(model => model.Product.SupplierID, (IEnumerable<SelectListItem>)Model.Suppliers, "Select Supplier", new { @class = "custom-select w-50", @id = "list_supplier" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.UnitPrice, "Unit Price", new { @for = "txt_unit_price", @class = "form-control-label" })
+            @if (@Html.ValidationMessageFor(model => model.Product.UnitPrice) != null)
+            {
+                @Html.TextBoxFor(model => model.Product.UnitPrice, new { @class = "form-control is-invalid w-50", @id = "txt_unit_price" })
+                @Html.ValidationMessageFor(model => model.Product.UnitPrice, "Price must be a number between 0 and 99999.999 .", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Product.UnitPrice, new { @class = "form-control w-50", @id = "txt_unit_price" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.UnitsInStock, "Units In Stock", new { @for = "txt_units_in_stock", @class = "form-control-label" })
+            @if (@Html.ValidationMessageFor(model => model.Product.UnitsInStock) != null)
+            {
+                @Html.TextBoxFor(model => model.Product.UnitsInStock, new { @class = "form-control is-invalid w-50", @id = "txt_units_in_stock", @type = "number" })
+                @Html.ValidationMessageFor(model => model.Product.UnitsInStock, "", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Product.UnitsInStock, new { @class = "form-control w-50", @id = "txt_units_in_stock", @type = "number" })
+            }
+        </div>
+        <div class="form-group has-danger">
+            @Html.LabelFor(model => model.Product.UnitsOnOrder, "Units On Order", new { @for = "txt_units_on_order", @class = "form-control-label" })
+            @if (@Html.ValidationMessageFor(model => model.Product.UnitsOnOrder) != null)
+            {
+                @Html.TextBoxFor(model => model.Product.UnitsOnOrder, new { @class = "form-control is-invalid w-50", @id = "txt_units_on_order", @type = "number" })
+                @Html.ValidationMessageFor(model => model.Product.UnitsOnOrder, "", new { @class = "invalid-feedback" })
+            }
+            else
+            {
+                @Html.TextBoxFor(model => model.Product.UnitsOnOrder, new { @class = "form-control w-50", @id = "txt_units_on_order", @type = "number" })
+            }
+        </div>
+        <p>
+            <input type="submit" value="Create" class="btn btn-primary" />
+            <a href="@Url.Action("Index", "Products")" class="btn btn-dark">
+                <span class="fa fa-ban">   Cancel</span>
+            </a>
+        </p>
+    </fieldset>
+    }
+
+</div>
+
+

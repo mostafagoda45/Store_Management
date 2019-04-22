@@ -1,0 +1,23 @@
+﻿@{ 
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="jumbotron mt-5">
+        <h1 class="display-3">Store Products Management</h1>
+        <p class="lead">This is a simple way to manage your store products</p>
+        <hr class="my-4">
+        <p>It uses utility classes for managing products and their Suppliers</p>
+        <p class="lead text-center">
+            @Html.ActionLink("Products", "Index", "Products", new { area = "" }, new { @class = "btn btn-primary btn-lg mr-4" })
+            @Html.ActionLink("Suppliers", "Index", "Suppliers", new { area = "" }, new { @class = "btn btn-primary btn-lg" })
+        </p>
+    </div>
+</body>
+</html>

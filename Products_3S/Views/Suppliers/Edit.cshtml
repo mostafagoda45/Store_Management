@@ -1,0 +1,43 @@
+﻿@model Products_3S.Models.Supplier
+@{
+    ViewBag.Title = "Edit supplier";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<div class="mt-5">
+    <h1 class="display-3">Edit Supplier</h1>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        <fieldset class="border p-2">
+            <legend class="w-auto">Supplier</legend>
+            <div class="form-group has-danger">
+                @Html.LabelFor(model => model.SupplierName, "Supplier Name", new { @for = "txt_supplier_name", @class = "form-control-label" })
+                @if (@Html.ValidationMessageFor(model => model.SupplierName) != null)
+                {
+                    @Html.TextBoxFor(model => model.SupplierName, new { @class = "form-control is-invalid w-50", @id = "txt_supplier_name" })
+                    @Html.ValidationMessageFor(model => model.SupplierName, "", new { @class = "invalid-feedback" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(model => model.SupplierName, new { @class = "form-control w-50", @id = "txt_supplier_name" })
+                }
+            </div>
+            <p>
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a href="@Url.Action("Index", "Suppliers")" class="btn btn-dark">
+                    <span class="fa fa-ban">   Cancel</span>
+                </a>
+            </p>
+        </fieldset>
+    }
+
+</div>
+
+

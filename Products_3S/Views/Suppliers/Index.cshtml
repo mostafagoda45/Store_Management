@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Products_3S.Models.Supplier>
+@{
+    ViewBag.Title = "Suppliers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-3">Suppliers</h1>
+    @Html.ActionLink("Create new supplier", "Create", "Suppliers", new { area = "" }, new { @class = "btn btn-primary btn-lg mb-4 float-right fa fa-plus" })
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>SupplierName</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{int row_id = 0;}
+            @foreach (var supplier in Model)
+            {
+                <tr>
+                    <td>@(row_id += 1)</td>
+                    <td>@supplier.SupplierName</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Suppliers", new { id = supplier.SupplierID })" class="btn btn-primary">
+                            <span class="fa fa-pencil">   Edit</span>
+                        </a>
+                        <a href="@Url.Action("Details", "Suppliers", new { id = supplier.SupplierID })" class="btn btn-info">
+                            <span class="fa fa-info">   Detials</span>
+                        </a>
+                        <a href="@Url.Action("Delete", "Suppliers", new { id = supplier.SupplierID })" class="btn btn-danger">
+                            <span class="fa fa-remove">   Delete</span>
+                        </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    @Html.ActionLink("Back", "Index", "Home", new { area = "" }, new { @class = "btn btn-primary mr-4 fa fa-arrow-circle-o-left" })
+</div>

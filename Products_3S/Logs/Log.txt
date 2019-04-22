@@ -1,0 +1,1240 @@
+DEBUG 2019-04-22 04:03:53,395  3227ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:03:53,799  3631ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:03:59,405  9238ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:03:59,406  9239ms ProductsController     Create             - {ProductID}
+DEBUG 2019-04-22 04:03:59,408  9241ms ProductsController     Create             - {System.Web.Mvc.ModelState}
+DEBUG 2019-04-22 04:04:23,119 32951ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:04:23,120 32952ms ProductsController     Create             - {ProductID}
+DEBUG 2019-04-22 04:10:05,090  5487ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:10:05,478  5876ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:10:41,075 41472ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:47:17,375 21887ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:47:59,593 64105ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:48:10,379 74891ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:48:15,061 79573ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:49:11,777 136289ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:49:11,779 136291ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:49:15,241 139753ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:50:46,148 230660ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:50:49,211 233723ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:50:49,212 233724ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:51:27,911 272423ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:51:33,460 277972ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:51:36,440 280952ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:51:37,064 281576ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:51:37,951 282463ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:51:54,273 298785ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:51:54,275 298787ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:51:57,289 301802ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:53:05,838  3785ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:53:06,326  4273ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:53:09,469  7416ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:54:47,399  3682ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:54:47,796  4078ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:54:51,407  7689ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:56:53,507  3272ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 04:56:53,913  3678ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 04:56:56,500  6265ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:57:03,492 13257ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:57:07,617 17382ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:57:13,098 22862ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:57:26,907 36671ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:57:30,778 40542ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:58:49,356 119121ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 04:59:37,301 167066ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:02:04,062 313826ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:02:04,064 313828ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:02:12,078 321842ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:02:41,915 351680ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:03:09,839 379603ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:03:09,841 379605ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:03:15,834 385598ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:03:15,876 385641ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 05:03:15,888 385652ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:03:15,890 385654ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:03:35,763 405527ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:03:40,802 410567ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:03:45,501 415266ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:15:36,754 152887ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:15:37,179 153313ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:16:11,963   497ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:16:12,405   939ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:16:36,623 25157ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:16:36,624 25158ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:16:56,625 45160ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:16:56,626 45161ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:17:40,280 88815ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:17:40,283 88818ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:17:55,137  3004ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:17:55,596  3463ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:18:47,112 54979ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:18:55,978 63845ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:19:07,931 75798ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:24:38,143 406010ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:24:41,730 409597ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:24:41,732 409599ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:25:15,369 443236ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:25:16,833 444700ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:26:03,727 491593ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:28:41,867 649734ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:30:40,691 768558ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:34:01,809 969676ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:34:08,103 975970ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:34:14,222 982089ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:34:48,192 1016059ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:34:48,194 1016061ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:36:27,218 72185ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:36:36,263 81230ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:36:39,886 84853ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:38:12,686 177654ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:38:18,213 183180ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:38:22,564 187532ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:38:27,846 192813ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:38:28,294 193261ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 05:38:28,303 193270ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:38:28,334 193301ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:49:03,852 26882ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:49:04,279 27308ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:49:10,576 33606ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:49:21,781 44811ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:49:58,211 81241ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:50:06,991 90021ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:50:13,146 96176ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:50:15,884 98914ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:50:27,216 110246ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:51:32,235 175265ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:52:37,476 240506ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 05:52:46,712 249742ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:52:46,713 249743ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:54:33,022 356052ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:54:33,023 356053ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:55:24,859 407889ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:55:24,862 407892ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:55:35,384 418414ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:55:35,387 418417ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:56:09,011 452041ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:56:09,013 452043ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:56:11,729 454759ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:56:11,730 454760ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:56:34,542 477572ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:56:34,544 477574ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 05:57:04,189 507219ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 05:57:04,192 507222ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 06:00:20,693  3852ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 06:01:45,803  3122ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 06:01:46,206  3524ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 06:47:27,728  3600ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 06:47:28,145  4016ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:10:18,179  6998ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:10:18,632  7452ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:12:32,347 19776ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:12:32,758 20188ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:16:35,759 19583ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:16:46,469 30294ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:19:08,245  3480ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:19:08,644  3880ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:22:15,179  3577ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:22:15,581  3978ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID], 
+    [Extent1].[Unit_ID] AS [Unit_ID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:31:27,886  3368ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:31:28,429  3911ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:31:54,057  3255ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:32:35,197  4041ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:32:35,560  4404ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:37:10,155  2421ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:37:10,666  2933ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:39:28,416 21874ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:39:28,950 22407ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Products] AS [Extent1]
+DEBUG 2019-04-22 07:59:44,197 52041ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 07:59:44,574 52418ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:00:51,444 19922ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:00:51,873 20352ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:01:29,897  5064ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:01:30,274  5441ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:02:08,392 43559ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:02:08,393 43560ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[Supplier_SupplierID] AS [Supplier_SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:05:20,216  3350ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:05:20,602  3735ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitsInStock] AS [UnitsInStock], 
+    [Extent1].[UnitsOnOrder] AS [UnitsOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:06:53,832  3556ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:06:54,231  3955ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:08:04,987  2450ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:08:05,385  2848ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:10:09,715  7782ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:10:10,106  8174ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:41:53,184 33258ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:44:34,019 194092ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:48:04,647 404720ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:48:19,685 419759ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:48:58,154 458227ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:49:15,631 475705ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:49:21,285 481358ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:49:43,633 503706ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:50:45,212 565286ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:51:28,823 608896ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:54:11,513 11041ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:54:11,966 11493ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:54:21,660 21187ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:54:30,428 29955ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:56:02,835 122362ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:56:02,836 122363ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:56:07,308 126835ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:56:53,758 173286ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 08:56:53,759 173287ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 08:56:58,098 177625ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:57:26,922 206449ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:57:51,776 231303ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 08:59:55,732 355260ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:00:04,176 363703ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:00:14,244 373771ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:02:52,824 532351ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:03:28,435 567962ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:03:48,928 588455ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:05:34,704 694231ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:08:36,787 876314ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:14:19,062 54409ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:14:19,085 54432ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:23:48,554 152970ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:23:48,602 153018ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:25:19,434 243851ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:25:19,450 243867ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 09:25:19,459 243876ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:25:19,460 243877ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:27:50,432 15236ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:27:50,888 15692ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:28:54,521  3264ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:28:54,887  3630ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:29:33,963  3849ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:29:34,372  4257ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:30:08,245 38131ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 09:30:08,267 38153ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 09:30:08,276 38162ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:30:08,277 38163ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:31:05,370 95256ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:31:05,373 95259ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:33:24,725 234611ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:33:24,726 234612ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:05,657 275543ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:05,660 275546ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:07,469 277355ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:07,470 277356ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:08,404 278289ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:08,405 278290ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:08,829 278715ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:08,830 278716ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:09,037 278923ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:09,038 278924ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:40,581 310466ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:40,583 310468ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:43,941 313826ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:43,943 313828ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:54,147 324032ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:54,148 324033ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:34:58,012 327897ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:34:58,014 327899ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:35:35,244 365129ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:35:35,245 365130ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:37:24,432 474317ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:37:24,434 474319ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 09:37:49,053 498938ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 09:37:49,055 498940ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 10:28:58,655  4109ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 10:28:59,078  4532ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:19:20,350 221176ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:19:20,387 221213ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:19:57,399 258226ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:19:57,402 258229ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:21:11,060 331886ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:21:11,061 331887ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:21:14,087 334914ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:21:14,089 334916ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:21:56,093 376919ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 12:21:56,297 377123ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 12:21:56,306 377132ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:21:56,308 377134ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:22:33,807 414634ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:22:33,810 414637ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:23:07,396 448222ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:23:07,399 448225ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:23:56,011 496837ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:23:56,012 496838ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:45:08,774  3958ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:45:09,152  4336ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:45:33,902 29086ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:45:33,903 29087ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:45:58,314 53498ms ProductsController     Create             - Attemp to save new product : Products_3S.Models.Product
+DEBUG 2019-04-22 12:45:58,329 53513ms ProductsController     Create             - Successfully save product
+DEBUG 2019-04-22 12:45:58,334 53518ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:45:58,335 53519ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:46:45,159  6480ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:46:45,553  6874ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:48:02,547  3964ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:48:02,936  4353ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:48:58,103 59520ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:48:58,105 59522ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:49:04,913 66331ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:49:04,914 66332ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:49:23,237 84654ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:49:23,238 84655ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:49:57,689 119106ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:49:57,691 119108ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:01,210 122627ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:01,212 122629ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:04,073 125490ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:04,074 125491ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:15,338 136755ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:15,339 136756ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:17,891 139309ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:17,892 139310ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:53,325 174742ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:53,326 174743ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:50:56,098 177515ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:50:56,099 177516ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:57:49,482  7544ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:57:49,858  7920ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:58:18,455 36516ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:58:18,456 36517ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:58:22,014 40076ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:58:22,016 40078ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 12:58:30,627 48688ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 12:58:30,628 48689ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 13:00:58,679  3814ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 13:00:59,055  4190ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 13:01:02,368  7503ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 13:01:02,369  7504ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
+DEBUG 2019-04-22 13:01:05,214 10349ms ProductsController     Index              - Attemp to get all products.....
+DEBUG 2019-04-22 13:01:05,215 10350ms ProductsController     Index              - Product list fetched successfully : SELECT 
+    [Extent1].[ProductID] AS [ProductID], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ReorderLevel] AS [ReorderLevel], 
+    [Extent1].[UnitPrice] AS [UnitPrice], 
+    [Extent1].[UnitInStock] AS [UnitInStock], 
+    [Extent1].[UnitOnOrder] AS [UnitOnOrder], 
+    [Extent1].[QuantityPerUnit] AS [QuantityPerUnit], 
+    [Extent1].[SupplierID] AS [SupplierID]
+    FROM [dbo].[Product] AS [Extent1]
