@@ -119,7 +119,7 @@ namespace Products_3S.Controllers
             }
             try
             {
-                var result = db.Products.FirstOrDefault(s => s.SupplierID == id);
+                var result = db.Products.FirstOrDefault(p => p.ProductID == id);
                 return View(result);
             }
             catch (Exception ex)
@@ -130,7 +130,7 @@ namespace Products_3S.Controllers
 
         public ActionResult Delete(int id)
         {
-            return View(db.Products.SingleOrDefault(s => s.SupplierID == id));
+            return View(db.Products.SingleOrDefault(s => s.ProductID == id));
         }
 
         [HttpPost]
@@ -139,7 +139,7 @@ namespace Products_3S.Controllers
         {
             try
             {
-                var result = db.Products.FirstOrDefault(s => s.SupplierID == id);
+                var result = db.Products.FirstOrDefault(s => s.ProductID == id);
                 db.Products.Remove(result);
                 db.SaveChanges();
                 return RedirectToAction("Index");
