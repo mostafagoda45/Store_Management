@@ -259,3 +259,7 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+./Products_3S/_bin_deployableAssemblies/*
+./Products_3S/bin/*
+./Products_3S/Logs/*
