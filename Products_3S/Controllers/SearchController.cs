@@ -20,6 +20,7 @@ namespace Products_3S.Controllers
         {
             ProductUnitModelView model = new ProductUnitModelView()
             {
+                Products = new List<Product>(),
                 Units = db.Units.Select(i => new SelectListItem { Value = i.ID.ToString(), Text = i.UnitName }),
                 Suppliers = db.Suppliers.Select(i => new SelectListItem { Value = i.SupplierID.ToString(), Text = i.SupplierName })
             };
@@ -32,37 +33,80 @@ namespace Products_3S.Controllers
         {
             try
             {
-                SqlCommand sqlCommand = new SqlCommand("SelectCategory")
+                List<object> param = new List<object>();
+                if(string.IsNullOrEmpty(product.ProductName))
                 {
-                    CommandType = CommandType.StoredProcedure,
-                    CommandText = "[dbo].[Products_search]"
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(string.Format("'{0}'", product.ProductName));
+                }
+                if(product.QuantityPerUnit == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.QuantityPerUnit);
+                }
+                if(product.ReorderLevel == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.ReorderLevel);
+                }
+                if(product.UnitPrice == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.UnitPrice);
+                }
+                if(product.UnitInStock == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.UnitInStock);
+                }
+                if(product.UnitOnOrder == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.UnitOnOrder);
+                }
+                if(product.SupplierID == null)
+                {
+                    param.Add("null");
+                }
+                else
+                {
+                    param.Add(product.SupplierID);
+                }
+
+                string query = string.Format("exec [dbo].[Products_search] {0}", string.Join(",", param.ToArray()));
+
+                var result = db.Database.SqlQuery<Product>(query).ToList();
+                foreach(var i in result)
+                {
+                    i.Unit = db.Units.FirstOrDefault(u => u.ID == i.QuantityPerUnit);
+                    i.Supplier = db.Suppliers.FirstOrDefault(s => s.SupplierID == i.SupplierID);
+                }
+                ProductUnitModelView model = new ProductUnitModelView()
+                {
+                    Product = product,
+                    Products = result,
+                    Units = db.Units.Select(i => new SelectListItem { Value = i.ID.ToString(), Text = i.UnitName }),
+                    Suppliers = db.Suppliers.Select(i => new SelectListItem { Value = i.SupplierID.ToString(), Text = i.SupplierName })
                 };
-                SqlParameter parameter;
-
-                parameter = sqlCommand.Parameters.Add("@ProductName", SqlDbType.NVarChar);
-                parameter.Size = 50;
-                parameter.Value = product.ProductName;
-
-                parameter = sqlCommand.Parameters.Add("@UnitId", SqlDbType.Int);
-                parameter.Value = product.QuantityPerUnit;
-
-                parameter = sqlCommand.Parameters.Add("@ReorderLevel", SqlDbType.Int);
-                parameter.Value = product.ReorderLevel;
-
-                parameter = sqlCommand.Parameters.Add("@UnitPrice", SqlDbType.Decimal);
-                parameter.Value = product.UnitPrice;
-
-                parameter = sqlCommand.Parameters.Add("@UnitOnOrder", SqlDbType.Int);
-                parameter.Value = product.UnitsOnOrder;
-
-
-                parameter = sqlCommand.Parameters.Add("@SupplierID", SqlDbType.Int);
-                parameter.Value = product.SupplierID;
-
-                DbRawSqlQuery<Product> result = db.Database.SqlQuery<Product>(sqlCommand.CommandText, sqlCommand.Parameters);
-                Log.Debug(result.ToList().First());
-
-                return View(result.AsEnumerable().First());
+                return View(model);
             }
             catch (Exception ex)
             {

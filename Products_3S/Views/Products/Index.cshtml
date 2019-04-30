@@ -16,8 +16,8 @@
                 <th>ReorderLevel</th>
                 <th>SupplierName</th>
                 <th>UnitPrice</th>
-                <th>UnitsInStock</th>
-                <th>UnitsOnOrder</th>
+                <th>UnitInStock</th>
+                <th>UnitOnOrder</th>
                 <th></th>
             </tr>
         </thead>
@@ -32,8 +32,8 @@
                 <td>@product.ReorderLevel</td>
                 <td>@product.Supplier.SupplierName</td>
                 <td>@product.UnitPrice</td>
-                <td>@product.UnitsInStock</td>
-                <td>@product.UnitsOnOrder</td>
+                <td>@product.UnitInStock</td>
+                <td>@product.UnitOnOrder</td>
                 <td class="d-inline-flex">
                     <a href="@Url.Action("Edit", "Products", new { id = product.ProductID })" class="btn btn-primary">
                         <span class="fa fa-pencil">   Edit</span>

@@ -16,28 +16,28 @@ namespace Products_3S.Models
         public string ProductName { get; set; }
 
         [Required]
-        public int ReorderLevel { get; set; }
+        public int? ReorderLevel { get; set; }
 
         [Required]
         [RegularExpression(@"^\d{0,5}(\.\d{1,3})?$")]
         [Column("UnitPrice")]
-        public decimal UnitPrice { get; set; }
+        public decimal? UnitPrice { get; set; }
 
         [Required]
         [Column("UnitInStock")]
-        public int UnitsInStock { get; set; }
+        public int? UnitInStock { get; set; }
 
         [Required]
         [Column("UnitOnOrder")]
-        public int UnitsOnOrder { get; set; }
+        public int? UnitOnOrder { get; set; }
 
         [ForeignKey("Unit")]
         [Required]
-        public int QuantityPerUnit { get; set; }
+        public int? QuantityPerUnit { get; set; }
 
         [ForeignKey("Supplier")]
         [Required]
-        public int SupplierID { get; set; }
+        public int? SupplierID { get; set; }
 
         public virtual Supplier Supplier { get; set; }
 

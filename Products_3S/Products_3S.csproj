@@ -194,7 +194,6 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductDBContext.cs" />
     <Compile Include="Models\ProductUnitModelView.cs" />
-    <Compile Include="Models\Search.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Models\Unit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

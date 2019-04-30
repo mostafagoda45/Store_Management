@@ -89,8 +89,8 @@ namespace Products_3S.Controllers
                     result.ReorderLevel = product.ReorderLevel;
                     result.SupplierID = product.SupplierID;
                     result.UnitPrice = product.UnitPrice;
-                    result.UnitsInStock = product.UnitsInStock;
-                    result.UnitsOnOrder = product.UnitsOnOrder;
+                    result.UnitInStock = product.UnitInStock;
+                    result.UnitOnOrder = product.UnitOnOrder;
                     db.SaveChanges();
                     return RedirectToAction("Index");
                 }
