@@ -7,6 +7,7 @@ using System.Data;
 using System.Data.Entity.Infrastructure;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Reflection;
 using System.Web.Mvc;
 
 namespace Products_3S.Controllers
@@ -34,63 +35,28 @@ namespace Products_3S.Controllers
             try
             {
                 List<object> param = new List<object>();
-                if(string.IsNullOrEmpty(product.ProductName))
+                foreach(PropertyInfo property in product.GetType().GetProperties().ToList())
                 {
-                    param.Add("null");
+                    if(!property.Name.Equals("ProductID") && !typeof(Supplier).IsAssignableFrom(property.PropertyType) && !typeof(Unit).IsAssignableFrom(property.PropertyType))
+                    {
+                        if (!(property.GetValue(product, null) == null))
+                        {
+                            if (typeof(string).IsAssignableFrom(property.PropertyType))
+                            {
+                                param.Add(string.Format("@{0} = '{1}'", property.Name, property.GetValue(product, null)));
+                            }
+                            else
+                            {
+                                param.Add(string.Format("@{0} = {1}", property.Name, property.GetValue(product, null)));
+                            }
+                        }
+                        else
+                        {
+                            param.Add(string.Format("@{0} = null", property.Name));
+                        }
+                    }
                 }
-                else
-                {
-                    param.Add(string.Format("'{0}'", product.ProductName));
-                }
-                if(product.QuantityPerUnit == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.QuantityPerUnit);
-                }
-                if(product.ReorderLevel == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.ReorderLevel);
-                }
-                if(product.UnitPrice == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.UnitPrice);
-                }
-                if(product.UnitInStock == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.UnitInStock);
-                }
-                if(product.UnitOnOrder == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.UnitOnOrder);
-                }
-                if(product.SupplierID == null)
-                {
-                    param.Add("null");
-                }
-                else
-                {
-                    param.Add(product.SupplierID);
-                }
-
+               
                 string query = string.Format("exec [dbo].[Products_search] {0}", string.Join(",", param.ToArray()));
 
                 var result = db.Database.SqlQuery<Product>(query).ToList();
@@ -110,7 +76,7 @@ namespace Products_3S.Controllers
             }
             catch (Exception ex)
             {
-                return new HttpStatusCodeResult(500, ex.Message);
+                return new HttpStatusCodeResult(500, ex.Message + "\n" + ex.StackTrace);
             }
         }
     }
